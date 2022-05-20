@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Autoria web - Amanda e Flávio</title>
+</head>
+<body>
+    <!--
+        primeiro de tudo criamos uma tabela que vai conter o banner, em seguida dizemos que o tamanho dela é 100% de largura e 200px de grossura(seila)
+    -->
+    <table class="banner" >
+        <img src="assets/img/banner.jpg" alt="banner" width="100%" height="200px">
+    </table>
+    <!---  
+    Depois outra tabela pro menu, com uma tag nav e dentro dela on links para as outras paginas(que ainda não fizemos pq no trabalho não pede)
+    -->
+    <table class="menu">
+        <nav>
+            <tr>
+                <td>
+                    <a href="">Inicio</a>
+                </td>
+                <td>
+                     <a href="">Quadrinhos</a>
+                </td>
+               <td>
+                   <a href="">Filmes </a>
+               </td>
+                <td>
+                    <a href="">Séries</a>
+                </td>
+            </tr>
+        </nav>
+    </table>
+    <!--
+        agora uma tabela para conter o formulario
+        aqui botamos um titulo bem grante
+        depois criamos o formulario com todos os inputs certinhos
+        criamos uma div para poder alinhar os inputs tipo radio, ficou mais fácil assim
+        depois um botãozinho pra enviar
+    -->
+    <table class="form">
+        <tr>
+            <th>
+                <h1>Cadastre-se</h1><hr>
+            </th>
+        </tr>
+        <td>
+            <form action="">
+                <input type="text" placeholder="Nome" id="nome">
+                <input type="text" placeholder="Sobrenome" id="sobrenome">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Senha" id="senha">
+                <p>Data de nascimento</p>
+                <input id="date" type="date">
+                <p>Gênero</p>
+                <div class="form-grupo">
+                    <input type="radio" name="Masculino" id="" value="masc">
+                    <label for="">Masculino</label>
+                    <input type="radio" name="Feminino" id="" value="fem">
+                    <label for="">Feminino</label>
+                    <input type="radio" name="Neutro" id="" value="neutro">
+                    <label for="">Neutro</label>
+                </div>
+            </form>
+            <hr>
+            <button>Cadastre-se</button>
+        </td>
+    </table>
+    <!---
+        um rodapé com nossas informações e etc..
+    -->
+    <table class="footer">
+        <tr>
+            <td>
+                <P>copyright&copy;2022 - Todos os direitos reservados a Amanda e Flávio amém LTDA - Contato flavinhoj78@gmail.com</P>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
