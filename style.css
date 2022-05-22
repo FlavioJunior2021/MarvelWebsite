@@ -32,10 +32,7 @@ button:hover{
     border: 1px solid #000;
     transition: all 0.5s;
 }
-.form{
-    background-image: url(assets/img/Avengers\ HD\ Background.png);
-    background-position: center;
-}
+
 .form td{
     display: flex;
     flex-direction: column;
